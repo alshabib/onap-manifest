@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="onap"
-           fetch=".."
+           fetch="https://gerrit.onap.org/"
            review="https://gerrit.onap.org/"
            revision="master" />
   <default revision="master"
