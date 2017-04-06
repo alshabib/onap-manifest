@@ -1,0 +1,81 @@
+manifest>
+
+  <remote  name="onap"
+           fetch=".."
+           review="https://gerrit.onap.org/"
+           revision="master" />
+  <default revision="master"
+           remote="onap"
+           sync-j="4" />
+
+<project path="All-Users" name="All-Users"\>
+<project path="aai/aai-config" name="aai/aai-config"\>
+<project path="aai/aai-data" name="aai/aai-data"\>
+<project path="aai/aai-service" name="aai/aai-service"\>
+<project path="aai/logging-service" name="aai/logging-service"\>
+<project path="aai/model-loader" name="aai/model-loader"\>
+<project path="appc" name="appc"\>
+<project path="appc/deployment" name="appc/deployment"\>
+<project path="ci-management" name="ci-management"\>
+<project path="dcae" name="dcae"\>
+<project path="dcae/apod" name="dcae/apod"\>
+<project path="dcae/apod/analytics" name="dcae/apod/analytics"\>
+<project path="dcae/apod/buildtools" name="dcae/apod/buildtools"\>
+<project path="dcae/apod/cdap" name="dcae/apod/cdap"\>
+<project path="dcae/collectors" name="dcae/collectors"\>
+<project path="dcae/collectors/ves" name="dcae/collectors/ves"\>
+<project path="dcae/controller" name="dcae/controller"\>
+<project path="dcae/controller/analytics" name="dcae/controller/analytics"\>
+<project path="dcae/dcae-inventory" name="dcae/dcae-inventory"\>
+<project path="dcae/demo" name="dcae/demo"\>
+<project path="dcae/demo/startup" name="dcae/demo/startup"\>
+<project path="dcae/demo/startup/aaf" name="dcae/demo/startup/aaf"\>
+<project path="dcae/demo/startup/controller" name="dcae/demo/startup/controller"\>
+<project path="dcae/demo/startup/message-router" name="dcae/demo/startup/message-router"\>
+<project path="dcae/dmaapbc" name="dcae/dmaapbc"\>
+<project path="dcae/operation" name="dcae/operation"\>
+<project path="dcae/operation/utils" name="dcae/operation/utils"\>
+<project path="dcae/orch-dispatcher" name="dcae/orch-dispatcher"\>
+<project path="dcae/pgaas" name="dcae/pgaas"\>
+<project path="dcae/utils" name="dcae/utils"\>
+<project path="dcae/utils/buildtools" name="dcae/utils/buildtools"\>
+<project path="demo" name="demo"\>
+<project path="ecompsdkos" name="ecompsdkos"\>
+<project path="mso" name="mso"\>
+<project path="mso/chef-repo" name="mso/chef-repo"\>
+<project path="mso/docker-config" name="mso/docker-config"\>
+<project path="mso/libs" name="mso/libs"\>
+<project path="mso/mso-config" name="mso/mso-config"\>
+<project path="ncomp" name="ncomp"\>
+<project path="ncomp/cdap" name="ncomp/cdap"\>
+<project path="ncomp/core" name="ncomp/core"\>
+<project path="ncomp/docker" name="ncomp/docker"\>
+<project path="ncomp/maven" name="ncomp/maven"\>
+<project path="ncomp/openstack" name="ncomp/openstack"\>
+<project path="ncomp/sirius" name="ncomp/sirius"\>
+<project path="ncomp/sirius/manager" name="ncomp/sirius/manager"\>
+<project path="ncomp/utils" name="ncomp/utils"\>
+<project path="policy/common" name="policy/common"\>
+<project path="policy/docker" name="policy/docker"\>
+<project path="policy/drools-applications" name="policy/drools-applications"\>
+<project path="policy/drools-pdp" name="policy/drools-pdp"\>
+<project path="policy/engine" name="policy/engine"\>
+<project path="portal" name="portal"\>
+<project path="sdc" name="sdc"\>
+<project path="sdc/sdc-distribution-client" name="sdc/sdc-distribution-client"\>
+<project path="sdc/sdc_common" name="sdc/sdc_common"\>
+<project path="sdnc/adaptors" name="sdnc/adaptors"\>
+<project path="sdnc/core" name="sdnc/core"\>
+<project path="sdnc/northbound" name="sdnc/northbound"\>
+<project path="sdnc/oam" name="sdnc/oam"\>
+<project path="sdnc/plugins" name="sdnc/plugins"\>
+<project path="testsuite" name="testsuite"\>
+<project path="testsuite/heatbridge" name="testsuite/heatbridge"\>
+<project path="testsuite/properties" name="testsuite/properties"\>
+<project path="testsuite/python-testing-utils" name="testsuite/python-testing-utils"\>
+<project path="ui" name="ui"\>
+<project path="ui/dmaapbc" name="ui/dmaapbc"\>
+<project path="vid" name="vid"\>
+<project path="vid/asdcclient" name="vid/asdcclient"\>
+
+</manifest>
